@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.nxt.mobile.wallet" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.ndx.mobile.wallet" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>NDX Mobile Wallet</name>
     <description>
-        Reference implementation mobile wallet for NXT.
+        Android mobile wallet for nDEX.
     </description>
-    <author email="info@jelurida.com" href="https://jelurida.com/">
-        Jelurida
+    <author email="info@ndexnetwork.com" href="https://ndexnetwork.com/">
+        nDEX Network
     </author>
-    <version>111.5.0</version>
+    <version>2.0.1b</version>
     <content src="index.html" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />

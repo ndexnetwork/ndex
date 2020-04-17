@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "nDEX Blockchain Wallet",
+  "short_name": "NDX",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
