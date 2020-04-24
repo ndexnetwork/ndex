@@ -18,6 +18,7 @@ README_win.txt
 /nDEX.log.lck
 /nxt.log.lck
 /bin
+*.log
 /.classpath
 /.project
 /.settings/

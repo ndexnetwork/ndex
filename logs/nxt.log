@@ -1,202 +1,192 @@
-2020-04-24 17:06:57 INFO: nxt.enableStackTraces = "true"
-2020-04-24 17:06:57 INFO: nxt.enableLogTraceback = "false"
-2020-04-24 17:06:57 INFO: logging enabled
-2020-04-24 17:06:57 INFO: socksProxyHost not defined
-2020-04-24 17:06:57 INFO: socksProxyPort not defined
-2020-04-24 17:06:57 FINE: java.version = 1.8.0_252
-2020-04-24 17:06:57 FINE: java.vm.version = 25.252-b09
-2020-04-24 17:06:57 FINE: java.vm.name = OpenJDK 64-Bit Server VM
-2020-04-24 17:06:57 FINE: java.vendor = Private Build
-2020-04-24 17:06:57 FINE: java.vm.vendor = Private Build
-2020-04-24 17:06:57 FINE: java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
-2020-04-24 17:06:57 FINE: java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
-2020-04-24 17:06:57 FINE: java.class.path = classes:lib/weupnp-0.1.4.jar:lib/lucene-queries-5.5.5.jar:lib/lucene-backward-codecs-5.5.5.jar:lib/jetty-continuation-9.3.24.v20180605.jar:lib/jetty-security-9.3.24.v20180605.jar:lib/websocket-api-9.3.24.v20180605.jar:lib/jetty-http-9.3.24.v20180605.jar:lib/bcprov-jdk15on-160.jar:lib/lucene-queryparser-5.5.5.jar:lib/json-simple-1.1.1.jar:lib/tika-parsers-1.13.jar:lib/jetty-util-9.3.24.v20180605.jar:lib/javase-3.3.0.jar:lib/websocket-common-9.3.24.v20180605.jar:lib/lucene-core-5.5.5.jar:lib/websocket-server-9.3.24.v20180605.jar:lib/h2-1.4.196.jar:lib/jetty-server-9.3.24.v20180605.jar:lib/websocket-client-9.3.24.v20180605.jar:lib/tika-core-1.13.jar:lib/lucene-analyzers-common-5.5.5.jar:lib/javax.servlet-api-3.1.0.jar:lib/slf4j-api-1.7.22.jar:lib/jetty-proxy-9.3.24.v20180605.jar:lib/core-3.3.0.jar:lib/jetty-servlet-9.3.24.v20180605.jar:lib/jetty-io-9.3.24.v20180605.jar:lib/slf4j-jdk14-1.7.22.jar:lib/jetty-client-9.3.24.v20180605.jar:lib/websocket-servlet-9.3.24.v20180605.jar:lib/jetty-servlets-9.3.24.v20180605.jar:conf:addons/classes:addons/lib/*
-2020-04-24 17:06:57 FINE: os.arch = amd64
-2020-04-24 17:06:57 FINE: sun.arch.data.model = 64
-2020-04-24 17:06:57 FINE: os.name = Linux
-2020-04-24 17:06:57 FINE: file.encoding = UTF-8
-2020-04-24 17:06:57 FINE: java.security.policy = null
-2020-04-24 17:06:57 FINE: java.security.manager = null
-2020-04-24 17:06:57 FINE: nxt.runtime.mode = null
-2020-04-24 17:06:57 FINE: nxt.runtime.dirProvider = null
-2020-04-24 17:06:57 FINE: availableProcessors = 4
-2020-04-24 17:06:57 FINE: maxMemory = 1799356416
-2020-04-24 17:06:57 FINE: processId = 5883
-2020-04-24 17:06:57 INFO: nxt.isTestnet = "false"
-2020-04-24 17:06:57 INFO: nxt.isOffline = "false"
-2020-04-24 17:06:57 INFO: nxt.isLightClient = "false"
-2020-04-24 17:06:57 INFO: nxt.customLoginWarning not defined
-2020-04-24 17:06:57 INFO: nxt.maxNumberOfTransactions not defined or not numeric, using default value 255
-2020-04-24 17:06:57 INFO: nxt.maxRollback = "800"
-2020-04-24 17:06:57 INFO: nxt.forgingDelay = "20"
-2020-04-24 17:06:57 INFO: nxt.forgingSpeedup = "3"
-2020-04-24 17:06:57 INFO: nxt.batchCommitSize = "100"
-2020-04-24 17:06:57 INFO: nxt.maxPrunableLifetime = "7776000"
-2020-04-24 17:06:57 INFO: nxt.includeExpiredPrunable = "true"
-2020-04-24 17:06:57 INFO: nxt.correctInvalidFees = "true"
-2020-04-24 17:06:57 INFO: nxt.statementLogThreshold = "10000"
-2020-04-24 17:06:57 INFO: nxt.transactionLogThreshold = "15000"
-2020-04-24 17:06:57 INFO: nxt.transactionLogInterval = "15"
-2020-04-24 17:06:57 INFO: nxt.dbCacheKB = "0"
-2020-04-24 17:06:57 INFO: nxt.dbUrl not defined
-2020-04-24 17:06:57 INFO: nxt.dbType = "h2"
-2020-04-24 17:06:57 INFO: nxt.dbDir = "./nxt_db/nxt"
-2020-04-24 17:06:57 INFO: nxt.dbParams = "DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;MV_STORE=FALSE"
-2020-04-24 17:06:57 INFO: nxt.dbUsername = "sa"
-2020-04-24 17:06:57 INFO: nxt.dbPassword = "{not logged}"
-2020-04-24 17:06:57 INFO: nxt.maxDbConnections = "30"
-2020-04-24 17:06:57 INFO: nxt.dbLoginTimeout = "70"
-2020-04-24 17:06:57 INFO: nxt.dbDefaultLockTimeout = "60"
-2020-04-24 17:06:57 INFO: nxt.dbMaxMemoryRows = "1000000"
-2020-04-24 17:06:57 FINE: Database jdbc url set to jdbc:h2:./nxt_db/nxt;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;MV_STORE=FALSE;CACHE_SIZE=262144 username sa
-2020-04-24 17:06:57 INFO: nxt.useStrongSecureRandom = "false"
-2020-04-24 17:06:57 FINE: Database connection pool current size: 1
-2020-04-24 17:06:57 INFO: Database update may take a while if needed, current db version 237...
-2020-04-24 17:06:57 INFO: nxt.enableTransactionRebroadcasting = "true"
-2020-04-24 17:06:57 INFO: nxt.testUnconfirmedTransactions not defined, using default false
-2020-04-24 17:06:57 INFO: nxt.maxUnconfirmedTransactions = "2000"
-2020-04-24 17:06:57 INFO: nxt.trimDerivedTables = "true"
-2020-04-24 17:06:57 INFO: nxt.numberOfForkConfirmations = "0"
-2020-04-24 17:06:57 INFO: nxt.simulateEndlessDownload not defined, using default false
-2020-04-24 17:06:57 INFO: nxt.trimFrequency = "1000"
-2020-04-24 17:06:57 INFO: nxt.disableGetMoreBlocksThread not defined, using default false
-2020-04-24 17:06:57 INFO: nxt.disableProcessTransactionsThread not defined, using default false
-2020-04-24 17:06:57 INFO: nxt.disableRebroadcastTransactionsThread not defined, using default false
-2020-04-24 17:06:57 INFO: nxt.disableRemoveUnconfirmedTransactionsThread not defined, using default false
-2020-04-24 17:06:57 INFO: nxt.disableProcessWaitingTransactionsThread not defined, using default false
-2020-04-24 17:06:57 INFO: nxt.enablePublicKeyCache = "true"
-2020-04-24 17:06:57 INFO: nxt.ledgerTrimKeep = "30000"
-2020-04-24 17:06:57 INFO: nxt.ledgerAccounts = "*"
-2020-04-24 17:06:57 INFO: Account ledger is tracking all accounts
-2020-04-24 17:06:57 INFO: nxt.ledgerLogUnconfirmed = "2"
-2020-04-24 17:06:57 INFO: nxt.processPolls = "true"
-2020-04-24 17:06:57 INFO: nxt.deleteFinishedShufflings = "false"
-2020-04-24 17:06:57 INFO: nxt.maxPeerRequestSize not defined or not numeric, using default value 1048576
-2020-04-24 17:06:57 INFO: nxt.maxPeerResponseSize not defined or not numeric, using default value 1048576
-2020-04-24 17:06:57 INFO: nxt.maxPeerMessageSize not defined or not numeric, using default value 10485760
-2020-04-24 17:06:57 INFO: nxt.hideErrorDetails = "false"
-2020-04-24 17:06:57 INFO: nxt.myPlatform not defined
-2020-04-24 17:06:57 INFO: nxt.myAddress not defined
-2020-04-24 17:06:57 INFO: nxt.peerServerPort = "6899"
-2020-04-24 17:06:57 INFO: nxt.shareMyAddress = "true"
-2020-04-24 17:06:57 INFO: nxt.enablePeerUPnP = "true"
-2020-04-24 17:06:57 INFO: nxt.myHallmark not defined
-2020-04-24 17:06:57 INFO: nxt.adminPassword not defined
-2020-04-24 17:06:57 INFO: nxt.maxAPIRecords = "100"
-2020-04-24 17:06:57 INFO: nxt.enableAPIUPnP = "true"
-2020-04-24 17:06:57 INFO: nxt.apiServerIdleTimeout = "30000"
-2020-04-24 17:06:57 INFO: nxt.apiServerCORS = "true"
-2020-04-24 17:06:57 INFO: nxt.forwardedForHeader not defined
-2020-04-24 17:06:57 INFO: nxt.disabledAPIs not defined
-2020-04-24 17:06:57 INFO: nxt.disabledAPITags not defined
-2020-04-24 17:06:57 INFO: nxt.allowedBotHosts = "127.0.0.1; localhost; [0:0:0:0:0:0:0:1];"
-2020-04-24 17:06:57 INFO: nxt.enableAPIServer = "true"
-2020-04-24 17:06:57 INFO: nxt.apiServerPort = "6868"
-2020-04-24 17:06:57 INFO: nxt.apiServerSSLPort = "6868"
-2020-04-24 17:06:57 INFO: nxt.apiServerHost = "0.0.0.0"
-2020-04-24 17:06:57 INFO: nxt.disableAdminPassword = "false"
-2020-04-24 17:06:57 INFO: nxt.apiSSL = "false"
-2020-04-24 17:06:58 INFO: API server using HTTP port 6868
-2020-04-24 17:06:58 INFO: nxt.apiResourceBase = "./html/www"
-2020-04-24 17:06:58 INFO: nxt.apiWelcomeFile = "index.html"
-2020-04-24 17:06:58 INFO: nxt.javadocResourceBase = "./html/doc"
-2020-04-24 17:06:58 INFO: nxt.maxUploadFileSize not defined or not numeric, using default value 0
-2020-04-24 17:06:58 INFO: nxt.maxUploadFileSize not defined or not numeric, using default value 0
-2020-04-24 17:06:58 INFO: nxt.enableAPIServerGZIPFilter not defined, using default false
-2020-04-24 17:06:58 INFO: nxt.apiFrameOptionsSameOrigin = "true"
-2020-04-24 17:06:58 FINE: My peer info:
+2020-04-24 21:18:53 INFO: nxt.enableStackTraces = "true"
+2020-04-24 21:18:53 INFO: nxt.enableLogTraceback = "false"
+2020-04-24 21:18:53 INFO: logging enabled
+2020-04-24 21:18:53 INFO: socksProxyHost not defined
+2020-04-24 21:18:53 INFO: socksProxyPort not defined
+2020-04-24 21:18:53 FINE: java.version = 1.8.0_252
+2020-04-24 21:18:53 FINE: java.vm.version = 25.252-b09
+2020-04-24 21:18:53 FINE: java.vm.name = OpenJDK 64-Bit Server VM
+2020-04-24 21:18:53 FINE: java.vendor = Private Build
+2020-04-24 21:18:53 FINE: java.vm.vendor = Private Build
+2020-04-24 21:18:53 FINE: java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+2020-04-24 21:18:53 FINE: java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-04-24 21:18:53 FINE: java.class.path = classes:lib/weupnp-0.1.4.jar:lib/lucene-queries-5.5.5.jar:lib/lucene-backward-codecs-5.5.5.jar:lib/jetty-continuation-9.3.24.v20180605.jar:lib/jetty-security-9.3.24.v20180605.jar:lib/websocket-api-9.3.24.v20180605.jar:lib/jetty-http-9.3.24.v20180605.jar:lib/bcprov-jdk15on-160.jar:lib/lucene-queryparser-5.5.5.jar:lib/json-simple-1.1.1.jar:lib/tika-parsers-1.13.jar:lib/jetty-util-9.3.24.v20180605.jar:lib/javase-3.3.0.jar:lib/websocket-common-9.3.24.v20180605.jar:lib/lucene-core-5.5.5.jar:lib/websocket-server-9.3.24.v20180605.jar:lib/h2-1.4.196.jar:lib/jetty-server-9.3.24.v20180605.jar:lib/websocket-client-9.3.24.v20180605.jar:lib/tika-core-1.13.jar:lib/lucene-analyzers-common-5.5.5.jar:lib/javax.servlet-api-3.1.0.jar:lib/slf4j-api-1.7.22.jar:lib/jetty-proxy-9.3.24.v20180605.jar:lib/core-3.3.0.jar:lib/jetty-servlet-9.3.24.v20180605.jar:lib/jetty-io-9.3.24.v20180605.jar:lib/slf4j-jdk14-1.7.22.jar:lib/jetty-client-9.3.24.v20180605.jar:lib/websocket-servlet-9.3.24.v20180605.jar:lib/jetty-servlets-9.3.24.v20180605.jar:conf:addons/classes:addons/lib/*
+2020-04-24 21:18:53 FINE: os.arch = amd64
+2020-04-24 21:18:53 FINE: sun.arch.data.model = 64
+2020-04-24 21:18:53 FINE: os.name = Linux
+2020-04-24 21:18:53 FINE: file.encoding = UTF-8
+2020-04-24 21:18:53 FINE: java.security.policy = null
+2020-04-24 21:18:53 FINE: java.security.manager = null
+2020-04-24 21:18:53 FINE: nxt.runtime.mode = null
+2020-04-24 21:18:53 FINE: nxt.runtime.dirProvider = null
+2020-04-24 21:18:53 FINE: availableProcessors = 4
+2020-04-24 21:18:53 FINE: maxMemory = 1799356416
+2020-04-24 21:18:53 FINE: processId = 16903
+2020-04-24 21:18:53 INFO: nxt.isTestnet = "false"
+2020-04-24 21:18:53 INFO: nxt.isOffline = "false"
+2020-04-24 21:18:53 INFO: nxt.isLightClient = "false"
+2020-04-24 21:18:53 INFO: nxt.customLoginWarning not defined
+2020-04-24 21:18:53 INFO: nxt.maxNumberOfTransactions not defined or not numeric, using default value 255
+2020-04-24 21:18:53 INFO: nxt.maxRollback = "800"
+2020-04-24 21:18:53 INFO: nxt.forgingDelay = "20"
+2020-04-24 21:18:53 INFO: nxt.forgingSpeedup = "3"
+2020-04-24 21:18:53 INFO: nxt.batchCommitSize = "100"
+2020-04-24 21:18:53 INFO: nxt.maxPrunableLifetime = "7776000"
+2020-04-24 21:18:53 INFO: nxt.includeExpiredPrunable = "true"
+2020-04-24 21:18:53 INFO: nxt.correctInvalidFees = "true"
+2020-04-24 21:18:53 INFO: nxt.statementLogThreshold = "10000"
+2020-04-24 21:18:53 INFO: nxt.transactionLogThreshold = "15000"
+2020-04-24 21:18:53 INFO: nxt.transactionLogInterval = "15"
+2020-04-24 21:18:53 INFO: nxt.dbCacheKB = "0"
+2020-04-24 21:18:53 INFO: nxt.dbUrl not defined
+2020-04-24 21:18:53 INFO: nxt.dbType = "h2"
+2020-04-24 21:18:53 INFO: nxt.dbDir = "./nxt_db/nxt"
+2020-04-24 21:18:53 INFO: nxt.dbParams = "DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;MV_STORE=FALSE"
+2020-04-24 21:18:53 INFO: nxt.dbUsername = "sa"
+2020-04-24 21:18:53 INFO: nxt.dbPassword = "{not logged}"
+2020-04-24 21:18:53 INFO: nxt.maxDbConnections = "30"
+2020-04-24 21:18:53 INFO: nxt.dbLoginTimeout = "70"
+2020-04-24 21:18:53 INFO: nxt.dbDefaultLockTimeout = "60"
+2020-04-24 21:18:53 INFO: nxt.dbMaxMemoryRows = "1000000"
+2020-04-24 21:18:53 FINE: Database jdbc url set to jdbc:h2:./nxt_db/nxt;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;MV_STORE=FALSE;CACHE_SIZE=262144 username sa
+2020-04-24 21:18:53 INFO: nxt.useStrongSecureRandom = "false"
+2020-04-24 21:18:55 FINE: Database connection pool current size: 1
+2020-04-24 21:18:55 INFO: Database update may take a while if needed, current db version 237...
+2020-04-24 21:18:55 INFO: nxt.enableTransactionRebroadcasting = "true"
+2020-04-24 21:18:55 INFO: nxt.testUnconfirmedTransactions not defined, using default false
+2020-04-24 21:18:55 INFO: nxt.maxUnconfirmedTransactions = "2000"
+2020-04-24 21:18:55 INFO: nxt.trimDerivedTables = "true"
+2020-04-24 21:18:55 INFO: nxt.numberOfForkConfirmations = "0"
+2020-04-24 21:18:55 INFO: nxt.simulateEndlessDownload not defined, using default false
+2020-04-24 21:18:55 INFO: nxt.trimFrequency = "1000"
+2020-04-24 21:18:55 INFO: nxt.disableGetMoreBlocksThread not defined, using default false
+2020-04-24 21:18:55 INFO: nxt.disableProcessTransactionsThread not defined, using default false
+2020-04-24 21:18:55 INFO: nxt.disableRebroadcastTransactionsThread not defined, using default false
+2020-04-24 21:18:55 INFO: nxt.disableRemoveUnconfirmedTransactionsThread not defined, using default false
+2020-04-24 21:18:55 INFO: nxt.disableProcessWaitingTransactionsThread not defined, using default false
+2020-04-24 21:18:55 INFO: nxt.enablePublicKeyCache = "true"
+2020-04-24 21:18:55 INFO: nxt.ledgerTrimKeep = "30000"
+2020-04-24 21:18:55 INFO: nxt.ledgerAccounts = "*"
+2020-04-24 21:18:55 INFO: Account ledger is tracking all accounts
+2020-04-24 21:18:55 INFO: nxt.ledgerLogUnconfirmed = "2"
+2020-04-24 21:18:55 INFO: nxt.processPolls = "true"
+2020-04-24 21:18:55 INFO: nxt.deleteFinishedShufflings = "false"
+2020-04-24 21:18:55 INFO: nxt.maxPeerRequestSize not defined or not numeric, using default value 1048576
+2020-04-24 21:18:55 INFO: nxt.maxPeerResponseSize not defined or not numeric, using default value 1048576
+2020-04-24 21:18:55 INFO: nxt.maxPeerMessageSize not defined or not numeric, using default value 10485760
+2020-04-24 21:18:55 INFO: nxt.hideErrorDetails = "false"
+2020-04-24 21:18:55 INFO: nxt.myPlatform not defined
+2020-04-24 21:18:55 INFO: nxt.myAddress not defined
+2020-04-24 21:18:55 INFO: nxt.peerServerPort = "6899"
+2020-04-24 21:18:55 INFO: nxt.shareMyAddress = "true"
+2020-04-24 21:18:55 INFO: nxt.enablePeerUPnP = "true"
+2020-04-24 21:18:55 INFO: nxt.myHallmark not defined
+2020-04-24 21:18:55 INFO: nxt.adminPassword not defined
+2020-04-24 21:18:55 INFO: nxt.maxAPIRecords = "100"
+2020-04-24 21:18:55 INFO: nxt.enableAPIUPnP = "true"
+2020-04-24 21:18:55 INFO: nxt.apiServerIdleTimeout = "30000"
+2020-04-24 21:18:55 INFO: nxt.apiServerCORS = "true"
+2020-04-24 21:18:55 INFO: nxt.forwardedForHeader not defined
+2020-04-24 21:18:55 INFO: nxt.disabledAPIs not defined
+2020-04-24 21:18:55 INFO: nxt.disabledAPITags not defined
+2020-04-24 21:18:55 INFO: nxt.allowedBotHosts = "127.0.0.1; localhost; [0:0:0:0:0:0:0:1];"
+2020-04-24 21:18:55 INFO: nxt.enableAPIServer = "true"
+2020-04-24 21:18:55 INFO: nxt.apiServerPort = "6868"
+2020-04-24 21:18:55 INFO: nxt.apiServerSSLPort = "6868"
+2020-04-24 21:18:55 INFO: nxt.apiServerHost = "0.0.0.0"
+2020-04-24 21:18:55 INFO: nxt.disableAdminPassword = "false"
+2020-04-24 21:18:55 INFO: nxt.apiSSL = "false"
+2020-04-24 21:18:56 INFO: API server using HTTP port 6868
+2020-04-24 21:18:56 INFO: nxt.apiResourceBase = "./html/www"
+2020-04-24 21:18:56 INFO: nxt.apiWelcomeFile = "index.html"
+2020-04-24 21:18:56 INFO: nxt.javadocResourceBase = "./html/doc"
+2020-04-24 21:18:56 INFO: nxt.maxUploadFileSize not defined or not numeric, using default value 0
+2020-04-24 21:18:56 INFO: nxt.maxUploadFileSize not defined or not numeric, using default value 0
+2020-04-24 21:18:56 INFO: nxt.enableAPIServerGZIPFilter not defined, using default false
+2020-04-24 21:18:56 INFO: nxt.apiFrameOptionsSameOrigin = "true"
+2020-04-24 21:18:56 FINE: My peer info:
 {"application":"nDEX","services":"0","version":"2.0.1","platform":"Linux amd64","shareAddress":true}
-2020-04-24 17:06:58 INFO: nxt.defaultPeers = "ndx.npay.life; ndxseed.npay.life; ndxdaily.npay.life; ndxlive.npay.life; ndxeco.npay.life; ndxworld.npay.life; 167.179.72.21; 198.13.41.14; 45.32.181.230; seed.npay.life; bd.npay.life;"
-2020-04-24 17:06:58 INFO: nxt.wellKnownPeers = "ndx.npay.life; ndxseed.npay.life; ndxdaily.npay.life; ndxlive.npay.life; ndxeco.npay.life; ndxworld.npay.life; 167.179.72.21; 198.13.41.14; 45.32.181.230; seed.npay.life; bd.npay.life;"
-2020-04-24 17:06:58 INFO: nxt.knownBlacklistedPeers not defined
-2020-04-24 17:06:58 INFO: nxt.maxNumberOfInboundConnections = "2000"
-2020-04-24 17:06:58 INFO: nxt.maxNumberOfOutboundConnections = "50"
-2020-04-24 17:06:58 INFO: nxt.maxNumberOfConnectedPublicPeers = "20"
-2020-04-24 17:06:58 INFO: nxt.maxNumberOfKnownPeers = "2000"
-2020-04-24 17:06:58 INFO: nxt.minNumberOfKnownPeers = "1000"
-2020-04-24 17:06:58 INFO: nxt.connectTimeout = "10000"
-2020-04-24 17:06:58 INFO: nxt.readTimeout = "20000"
-2020-04-24 17:06:58 INFO: nxt.enableHallmarkProtection = "true"
-2020-04-24 17:06:58 INFO: nxt.pushThreshold = "0"
-2020-04-24 17:06:58 INFO: nxt.pullThreshold = "0"
-2020-04-24 17:06:58 INFO: nxt.useWebSockets = "true"
-2020-04-24 17:06:58 INFO: nxt.webSocketIdleTimeout = "900000"
-2020-04-24 17:06:58 INFO: nxt.enablePeerServerGZIPFilter = "true"
-2020-04-24 17:06:58 INFO: nxt.blacklistingPeriod = "600000"
-2020-04-24 17:06:58 INFO: nxt.communicationLoggingMask = "0"
-2020-04-24 17:06:58 INFO: nxt.sendToPeersLimit = "10"
-2020-04-24 17:06:58 INFO: nxt.usePeersDb = "true"
-2020-04-24 17:06:58 INFO: nxt.savePeers = "true"
-2020-04-24 17:06:58 INFO: nxt.getMorePeers = "true"
-2020-04-24 17:06:58 INFO: nxt.cjdnsOnly = "false"
-2020-04-24 17:06:58 INFO: nxt.ignorePeerAnnouncedAddress = "false"
-2020-04-24 17:06:58 INFO: nxt.disablePeerConnectingThread not defined, using default false
-2020-04-24 17:06:58 INFO: nxt.disablePeerUnBlacklistingThread not defined, using default false
-2020-04-24 17:06:58 INFO: nxt.disableGetMorePeersThread not defined, using default false
-2020-04-24 17:06:58 INFO: nxt.peerServerHost = "0.0.0.0"
-2020-04-24 17:06:58 INFO: nxt.peerServerIdleTimeout = "30000"
-2020-04-24 17:06:58 INFO: nxt.enablePeerServerDoSFilter = "true"
-2020-04-24 17:06:58 INFO: nxt.peerServerDoSFilter.maxRequestsPerSec = "30"
-2020-04-24 17:06:58 INFO: nxt.peerServerDoSFilter.delayMs = "1000"
-2020-04-24 17:06:58 INFO: nxt.peerServerDoSFilter.maxRequestMs = "300000"
-2020-04-24 17:06:58 INFO: nxt.enableAPIProxy = "true"
-2020-04-24 17:06:58 INFO: nxt.apiProxyBlacklistingPeriod = "1800000"
-2020-04-24 17:06:58 INFO: nxt.forceAPIProxyServerURL not defined
-2020-04-24 17:06:58 INFO: nxt.disableAPIProxyPeersUpdateThread not defined, using default false
-2020-04-24 17:06:58 INFO: nxt.maxNumberOfForgers = "100"
-2020-04-24 17:06:58 INFO: nxt.enableFakeForging not defined, using default false
-2020-04-24 17:06:58 INFO: nxt.disableGenerateBlocksThread not defined, using default false
-2020-04-24 17:06:58 INFO: nxt.addOns not defined
-2020-04-24 17:06:58 INFO: nxt.debugTraceQuote = """
-2020-04-24 17:06:58 INFO: nxt.debugTraceSeparator = "	"
-2020-04-24 17:06:58 INFO: nxt.debugLogUnconfirmed = "false"
-2020-04-24 17:06:58 INFO: nxt.debugTraceAccounts not defined
-2020-04-24 17:06:58 INFO: nxt.debugTraceLog = "nxt-trace.csv"
-2020-04-24 17:06:58 FINE: Running 2 tasks...
-2020-04-24 17:06:58 FINE: Loading known peers from the database...
-2020-04-24 17:06:58 FINE: Database connection pool current size: 2
-2020-04-24 17:06:58 INFO: Genesis block already in database
-2020-04-24 17:06:58 FINE: Rollback from block 10926033021903428355 at height 116785 to 10926033021903428355 at 116785
-2020-04-24 17:06:58 FINE: Average database transaction time is 0.438 seconds
-2020-04-24 17:06:58 INFO: Last block height: 116785
-2020-04-24 17:06:58 INFO: nxt.forceScan = "true"
-2020-04-24 17:06:58 INFO: nxt.forceValidate = "true"
-2020-04-24 17:06:58 FINE: Scheduled scan starting from height 0, with validation
-2020-04-24 17:06:58 INFO: Scanning blockchain starting from height 0...
-2020-04-24 17:06:58 FINE: Also verifying signatures and validating transactions...
-2020-04-24 17:06:58 FINE: Dropping all full text search indexes
-2020-04-24 17:06:58 INFO: Lucene search index deleted
-2020-04-24 17:06:59 FINE: Rolled back derived tables
-2020-04-24 17:06:59 FINE: Loading public keys
-2020-04-24 17:07:04 FINE: Loaded 248941 public keys
-2020-04-24 17:07:04 FINE: Loading genesis amounts
-2020-04-24 17:07:10 FINE: Total balance 999999999.999579 NDX
-2020-04-24 17:07:24 FINE: Back fees 300.000000 NDX to forger at height 3494
-2020-04-24 17:07:24 FINE: Back fees 200.000000 NDX to forger at height 3493
-2020-04-24 17:07:24 FINE: Back fees 100.000000 NDX to forger at height 3492
-2020-04-24 17:07:24 FINE: Fee reduced by 600.000000 NDX at height 3495
-2020-04-24 17:07:28 FINE: Registration never completed for shuffling 955251887913719080
-2020-04-24 17:07:28 FINE: Shuffling 955251887913719080 entered stage CANCELLED, assignee 0, remaining blocks 0
-2020-04-24 17:07:28 FINE: Shuffling 955251887913719080 was cancelled, blaming account 0
-2020-04-24 17:07:29 INFO: processed block 5000
-2020-04-24 17:07:40 INFO: processed block 10000
-2020-04-24 17:07:53 FINE: Registration never completed for shuffling 2850751178184057135
-2020-04-24 17:07:53 FINE: Shuffling 2850751178184057135 entered stage CANCELLED, assignee 0, remaining blocks 0
-2020-04-24 17:07:53 FINE: Shuffling 2850751178184057135 was cancelled, blaming account 0
-2020-04-24 17:07:55 INFO: processed block 15000
-2020-04-24 17:08:06 INFO: processed block 20000
-2020-04-24 17:08:22 INFO: processed block 25000
-2020-04-24 17:08:39 FINE: Registration never completed for shuffling 12445500198709198072
-2020-04-24 17:08:39 FINE: Shuffling 12445500198709198072 entered stage CANCELLED, assignee 0, remaining blocks 0
-2020-04-24 17:08:39 FINE: Shuffling 12445500198709198072 was cancelled, blaming account 0
-2020-04-24 17:08:39 INFO: processed block 30000
-2020-04-24 17:08:46 FINE: Registration never completed for shuffling 6925667186145737025
-2020-04-24 17:08:46 FINE: Shuffling 6925667186145737025 entered stage CANCELLED, assignee 0, remaining blocks 0
-2020-04-24 17:08:46 FINE: Shuffling 6925667186145737025 was cancelled, blaming account 0
-2020-04-24 17:08:52 INFO: processed block 35000
-2020-04-24 17:09:03 INFO: processed block 40000
-2020-04-24 17:09:15 INFO: processed block 45000
-2020-04-24 17:09:28 INFO: processed block 50000
-2020-04-24 17:09:41 INFO: processed block 55000
-2020-04-24 17:09:53 INFO: processed block 60000
-2020-04-24 17:10:05 INFO: processed block 65000
+2020-04-24 21:18:56 INFO: nxt.defaultPeers = "ndx.npay.life; ndxseed.npay.life; ndxdaily.npay.life; ndxlive.npay.life; ndxeco.npay.life; ndxworld.npay.life; 167.179.72.21; 198.13.41.14; 45.32.181.230; seed.npay.life; bd.npay.life;"
+2020-04-24 21:18:56 INFO: nxt.wellKnownPeers = "ndx.npay.life; ndxseed.npay.life; ndxdaily.npay.life; ndxlive.npay.life; ndxeco.npay.life; ndxworld.npay.life; 167.179.72.21; 198.13.41.14; 45.32.181.230; seed.npay.life; bd.npay.life;"
+2020-04-24 21:18:56 INFO: nxt.knownBlacklistedPeers not defined
+2020-04-24 21:18:56 INFO: nxt.maxNumberOfInboundConnections = "2000"
+2020-04-24 21:18:56 INFO: nxt.maxNumberOfOutboundConnections = "50"
+2020-04-24 21:18:56 INFO: nxt.maxNumberOfConnectedPublicPeers = "20"
+2020-04-24 21:18:56 INFO: nxt.maxNumberOfKnownPeers = "2000"
+2020-04-24 21:18:56 INFO: nxt.minNumberOfKnownPeers = "1000"
+2020-04-24 21:18:56 INFO: nxt.connectTimeout = "10000"
+2020-04-24 21:18:56 INFO: nxt.readTimeout = "20000"
+2020-04-24 21:18:56 INFO: nxt.enableHallmarkProtection = "true"
+2020-04-24 21:18:56 INFO: nxt.pushThreshold = "0"
+2020-04-24 21:18:56 INFO: nxt.pullThreshold = "0"
+2020-04-24 21:18:56 INFO: nxt.useWebSockets = "true"
+2020-04-24 21:18:56 INFO: nxt.webSocketIdleTimeout = "900000"
+2020-04-24 21:18:56 INFO: nxt.enablePeerServerGZIPFilter = "true"
+2020-04-24 21:18:56 INFO: nxt.blacklistingPeriod = "600000"
+2020-04-24 21:18:56 INFO: nxt.communicationLoggingMask = "0"
+2020-04-24 21:18:56 INFO: nxt.sendToPeersLimit = "10"
+2020-04-24 21:18:56 INFO: nxt.usePeersDb = "true"
+2020-04-24 21:18:56 INFO: nxt.savePeers = "true"
+2020-04-24 21:18:56 INFO: nxt.getMorePeers = "true"
+2020-04-24 21:18:56 INFO: nxt.cjdnsOnly = "false"
+2020-04-24 21:18:56 INFO: nxt.ignorePeerAnnouncedAddress = "false"
+2020-04-24 21:18:56 INFO: nxt.disablePeerConnectingThread not defined, using default false
+2020-04-24 21:18:56 INFO: nxt.disablePeerUnBlacklistingThread not defined, using default false
+2020-04-24 21:18:56 INFO: nxt.disableGetMorePeersThread not defined, using default false
+2020-04-24 21:18:56 INFO: nxt.peerServerHost = "0.0.0.0"
+2020-04-24 21:18:56 INFO: nxt.peerServerIdleTimeout = "30000"
+2020-04-24 21:18:56 INFO: nxt.enablePeerServerDoSFilter = "true"
+2020-04-24 21:18:56 INFO: nxt.peerServerDoSFilter.maxRequestsPerSec = "30"
+2020-04-24 21:18:56 INFO: nxt.peerServerDoSFilter.delayMs = "1000"
+2020-04-24 21:18:56 INFO: nxt.peerServerDoSFilter.maxRequestMs = "300000"
+2020-04-24 21:18:56 INFO: nxt.enableAPIProxy = "true"
+2020-04-24 21:18:56 INFO: nxt.apiProxyBlacklistingPeriod = "1800000"
+2020-04-24 21:18:56 INFO: nxt.forceAPIProxyServerURL not defined
+2020-04-24 21:18:56 INFO: nxt.disableAPIProxyPeersUpdateThread not defined, using default false
+2020-04-24 21:18:56 INFO: nxt.maxNumberOfForgers = "100"
+2020-04-24 21:18:56 INFO: nxt.enableFakeForging not defined, using default false
+2020-04-24 21:18:56 INFO: nxt.disableGenerateBlocksThread not defined, using default false
+2020-04-24 21:18:56 INFO: nxt.addOns not defined
+2020-04-24 21:18:56 INFO: nxt.debugTraceQuote = """
+2020-04-24 21:18:56 INFO: nxt.debugTraceSeparator = "	"
+2020-04-24 21:18:56 INFO: nxt.debugLogUnconfirmed = "false"
+2020-04-24 21:18:56 INFO: nxt.debugTraceAccounts not defined
+2020-04-24 21:18:56 INFO: nxt.debugTraceLog = "nxt-trace.csv"
+2020-04-24 21:18:56 FINE: Running 2 tasks...
+2020-04-24 21:18:56 INFO: Genesis block already in database
+2020-04-24 21:18:56 FINE: Rollback from block 9395630804313340358 at height 117058 to 9395630804313340358 at 117058
+2020-04-24 21:18:56 FINE: Loading known peers from the database...
+2020-04-24 21:19:00 FINE: Database connection pool current size: 2
+2020-04-24 21:19:00 FINE: Average database transaction time is 3.767 seconds
+2020-04-24 21:19:00 INFO: Last block height: 117058
+2020-04-24 21:19:00 INFO: nxt.forceScan = "true"
+2020-04-24 21:19:00 INFO: nxt.forceValidate = "true"
+2020-04-24 21:19:00 FINE: Scheduled scan starting from height 0, with validation
+2020-04-24 21:19:00 INFO: Scanning blockchain starting from height 0...
+2020-04-24 21:19:00 FINE: Also verifying signatures and validating transactions...
+2020-04-24 21:19:00 FINE: Dropping all full text search indexes
+2020-04-24 21:19:00 INFO: Lucene search index deleted
+2020-04-24 21:19:01 FINE: Rolled back derived tables
+2020-04-24 21:19:02 FINE: Loading public keys
+2020-04-24 21:19:07 FINE: Loaded 248941 public keys
+2020-04-24 21:19:07 FINE: Loading genesis amounts
+2020-04-24 21:19:13 FINE: Total balance 999999999.999579 NDX
+2020-04-24 21:19:35 FINE: Back fees 300.000000 NDX to forger at height 3494
+2020-04-24 21:19:35 FINE: Back fees 200.000000 NDX to forger at height 3493
+2020-04-24 21:19:35 FINE: Back fees 100.000000 NDX to forger at height 3492
+2020-04-24 21:19:35 FINE: Fee reduced by 600.000000 NDX at height 3495
+2020-04-24 21:19:39 FINE: Registration never completed for shuffling 955251887913719080
+2020-04-24 21:19:39 FINE: Shuffling 955251887913719080 entered stage CANCELLED, assignee 0, remaining blocks 0
+2020-04-24 21:19:39 FINE: Shuffling 955251887913719080 was cancelled, blaming account 0
+2020-04-24 21:19:39 INFO: processed block 5000
+2020-04-24 21:19:51 INFO: processed block 10000
+2020-04-24 21:20:04 FINE: Registration never completed for shuffling 2850751178184057135
+2020-04-24 21:20:04 FINE: Shuffling 2850751178184057135 entered stage CANCELLED, assignee 0, remaining blocks 0
+2020-04-24 21:20:04 FINE: Shuffling 2850751178184057135 was cancelled, blaming account 0
+2020-04-24 21:20:05 INFO: processed block 15000
+2020-04-24 21:20:19 INFO: processed block 20000
+2020-04-24 21:20:35 INFO: processed block 25000
+2020-04-24 21:20:50 FINE: Registration never completed for shuffling 12445500198709198072
+2020-04-24 21:20:50 FINE: Shuffling 12445500198709198072 entered stage CANCELLED, assignee 0, remaining blocks 0
+2020-04-24 21:20:50 FINE: Shuffling 12445500198709198072 was cancelled, blaming account 0
+2020-04-24 21:20:50 INFO: processed block 30000
