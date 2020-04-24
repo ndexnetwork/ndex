@@ -385,9 +385,9 @@ img {
 /* Remove border radius */
 .flat,
 .flat > * {
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  border-radius: 0 !important;
+  -webkit-border-radius: 4 !important;
+  -moz-border-radius: 4 !important;
+  border-radius: 4 !important;
 }
 /* Change the color of the striped tables */
 .table-striped > tbody > tr:nth-child(odd) > td,
