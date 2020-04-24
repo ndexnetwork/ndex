@@ -190,3 +190,83 @@
 2020-04-24 21:20:50 FINE: Shuffling 12445500198709198072 entered stage CANCELLED, assignee 0, remaining blocks 0
 2020-04-24 21:20:50 FINE: Shuffling 12445500198709198072 was cancelled, blaming account 0
 2020-04-24 21:20:50 INFO: processed block 30000
+2020-04-24 21:20:58 FINE: Registration never completed for shuffling 6925667186145737025
+2020-04-24 21:20:58 FINE: Shuffling 6925667186145737025 entered stage CANCELLED, assignee 0, remaining blocks 0
+2020-04-24 21:20:58 FINE: Shuffling 6925667186145737025 was cancelled, blaming account 0
+2020-04-24 21:21:04 INFO: processed block 35000
+2020-04-24 21:21:16 INFO: processed block 40000
+2020-04-24 21:21:29 INFO: processed block 45000
+2020-04-24 21:21:44 INFO: processed block 50000
+2020-04-24 21:21:56 INFO: processed block 55000
+2020-04-24 21:22:07 INFO: processed block 60000
+2020-04-24 21:22:18 INFO: processed block 65000
+2020-04-24 21:22:29 INFO: processed block 70000
+2020-04-24 21:22:40 INFO: processed block 75000
+2020-04-24 21:22:50 INFO: processed block 80000
+2020-04-24 21:23:01 INFO: processed block 85000
+2020-04-24 21:23:11 FINE: Registration never completed for shuffling 11297120063618211314
+2020-04-24 21:23:11 FINE: Shuffling 11297120063618211314 entered stage CANCELLED, assignee 0, remaining blocks 0
+2020-04-24 21:23:11 FINE: Shuffling 11297120063618211314 was cancelled, blaming account 0
+2020-04-24 21:23:12 INFO: processed block 90000
+2020-04-24 21:23:23 INFO: processed block 95000
+2020-04-24 21:23:34 INFO: processed block 100000
+2020-04-24 21:23:45 INFO: processed block 105000
+2020-04-24 21:23:56 INFO: processed block 110000
+2020-04-24 21:24:06 INFO: processed block 115000
+2020-04-24 21:24:11 FINE: Creating search index on account_info (name,description)
+2020-04-24 21:24:12 INFO: Lucene search index created for table PUBLIC.ACCOUNT_INFO
+2020-04-24 21:24:12 FINE: Creating search index on asset (name,description)
+2020-04-24 21:24:12 INFO: Lucene search index created for table PUBLIC.ASSET
+2020-04-24 21:24:12 FINE: Creating search index on goods (name,description,tags)
+2020-04-24 21:24:12 INFO: Lucene search index created for table PUBLIC.GOODS
+2020-04-24 21:24:12 FINE: Creating search index on poll (name,description)
+2020-04-24 21:24:12 INFO: Lucene search index created for table PUBLIC.POLL
+2020-04-24 21:24:12 FINE: Creating search index on currency (code,name,description)
+2020-04-24 21:24:12 INFO: Lucene search index created for table PUBLIC.CURRENCY
+2020-04-24 21:24:12 FINE: Creating search index on tagged_data (name,description,tags)
+2020-04-24 21:24:13 INFO: Lucene search index created for table PUBLIC.TAGGED_DATA
+2020-04-24 21:24:13 INFO: ...done at height 117058
+2020-04-24 21:24:13 INFO: SUCCESSFULLY PERFORMED FULL RESCAN WITH VALIDATION
+2020-04-24 21:24:13 FINE: Database transaction required 313.010 seconds at height 117058
+  nxt.BlockchainProcessorImpl.scan(BlockchainProcessorImpl.java:1813)
+  nxt.BlockchainProcessorImpl.scan(BlockchainProcessorImpl.java:1790)
+  nxt.BlockchainProcessorImpl.lambda$new$5(BlockchainProcessorImpl.java:973)
+  nxt.util.ThreadPool.lambda$runAll$1(ThreadPool.java:126)
+2020-04-24 21:24:13 FINE: Running 2 final tasks...
+2020-04-24 21:24:13 INFO: Looking for UPnP gateway device...
+2020-04-24 21:24:13 INFO: nxt.upnpGatewayTimeout not defined or not numeric, using default value 7000
+2020-04-24 21:24:13 INFO: nxt.upnpDiscoverTimeout not defined or not numeric, using default value 3000
+2020-04-24 21:24:13 FINE: UPnP gateway device found on 192.168.0.102
+2020-04-24 21:24:13 FINE: Using UPnP gateway device on 192.168.0.102
+2020-04-24 21:24:13 INFO: External IP address is 172.20.25.225
+2020-04-24 21:24:13 FINE: Mapped port [172.20.25.225]:6868
+2020-04-24 21:24:13 FINE: Mapped port [172.20.25.225]:6899
+2020-04-24 21:24:13 INFO: nxt.apiServerEnforcePOST = "true"
+2020-04-24 21:24:13 INFO: nxt.apiFixResponseContentType = "true"
+2020-04-24 21:24:13 INFO: Started API server at 0.0.0.0:6868
+2020-04-24 21:24:14 INFO: Started peer networking server at 0.0.0.0:6899
+2020-04-24 21:24:14 FINE: Starting 10 background jobs
+2020-04-24 21:24:14 FINE: Starting 2 delayed tasks
+2020-04-24 21:24:14 FINE: Cannot find any archive peers
+2020-04-24 21:24:14 FINE: Remaining 25 pruned transactions
+2020-04-24 21:24:14 FINE: Known peers: 12
+2020-04-24 21:24:14 INFO: Initialization took 321 seconds
+2020-04-24 21:24:14 INFO: nDEX server 2.0.1 started successfully.
+2020-04-24 21:24:14 INFO: Copyright © 2013-2016 The Nxt Core Developers.
+2020-04-24 21:24:14 INFO: Copyright © 2016-2019 Jelurida IP B.V.
+2020-04-24 21:24:14 INFO: Copyright © 2018-2020 The nDEX Network
+2020-04-24 21:24:14 INFO: Distributed under the Jelurida Public License version 1.1 for the Nxt Public Blockchain Platform, with ABSOLUTELY NO WARRANTY.
+2020-04-24 21:24:14 INFO: Client UI is at http://localhost:6868/index.html
+2020-04-24 21:25:26 FINE: Forger 9040244483504276998 deadline 201 hit 6984801 started
+2020-04-24 21:26:07 INFO: Shutting down...
+2020-04-24 21:26:07 FINE: Mapping deleted for port 6868
+2020-04-24 21:26:07 INFO: nxt.maxNumberOfMonitors = "100"
+2020-04-24 21:26:07 INFO: Stopping background jobs...
+2020-04-24 21:26:07 INFO: shutting down scheduledThreadPool
+2020-04-24 21:26:07 INFO: ...Done
+2020-04-24 21:26:07 INFO: shutting down networkService
+2020-04-24 21:26:07 FINE: Mapping deleted for port 6899
+2020-04-24 21:26:07 INFO: shutting down sendingService
+2020-04-24 21:26:07 INFO: shutting down peersService
+2020-04-24 21:26:12 INFO: Database shutdown completed
+2020-04-24 21:26:12 INFO: nDEX server 2.0.1 stopped.
