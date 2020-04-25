@@ -69,9 +69,10 @@ var NRS = (function (NRS, $) {
         'FORGING': 'forging',
         'NOT_FORGING': 'not_forging',
         'UNKNOWN': 'unknown',
-        'LAST_KNOWN_BLOCK': { id: "15843097789236847667", height: "117040" },
+     //  'LAST_KNOWN_BLOCK': { id: "15843097789236847667", height: "117040" },
+        'LAST_KNOWN_BLOCK': { id: "0", height: "0" },
         'LAST_KNOWN_TESTNET_BLOCK': { id: "0", height: "0" },
-        'INITIAL_BASE_TARGET': 2277590847,
+     //   'INITIAL_BASE_TARGET': 2277590847,
         'SCHEDULE_PREFIX': "schedule"
     };
 

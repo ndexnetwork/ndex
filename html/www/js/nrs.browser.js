@@ -1,1 +1,1 @@
-window.isNode = false;
+window.isNode = true;
