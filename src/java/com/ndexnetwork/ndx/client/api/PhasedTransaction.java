@@ -13,7 +13,7 @@
  *
  */
 
-package com.jelurida.ardor.client.api;
+package com.ndexnetwork.ndx.client.api;
 
 import nxt.Nxt;
 import nxt.VoteWeighting;
@@ -34,7 +34,7 @@ public class PhasedTransaction {
     private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
 
     public static void main(String[] args) throws MalformedURLException {
-        URL url = new URL("https://testnxt.jelurida.com/nxt");
+        URL url = new URL("https://test.npay.life/nxt");
 
         PhasedTransaction phasedTransaction = new PhasedTransaction();
         phasedTransaction.submitPhasedTransaction(url);
@@ -46,7 +46,7 @@ public class PhasedTransaction {
         int height = blockResponse.getHeight();
 
         JO signedTransactionResponse = SendMoneyCall.create().
-                recipient("NXT-KX2S-UULA-7YZ7-F3R8L").
+                recipient("NDX-KX2S-UULA-7YZ7-F3R8L").
                 amountNQT(12345678).
                 secretPhrase(SECRET_PHRASE).
                 deadline(15).
@@ -54,7 +54,7 @@ public class PhasedTransaction {
                 phased(true).
                 phasingVotingModel(VoteWeighting.VotingModel.ACCOUNT.getCode()). // Another account will need to approve this
                 phasingQuorum(1). // One approver account is enough
-                phasingWhitelisted("NXT-EVHD-5FLM-3NMQ-G46NR"). // This is the account that needs to approve
+                phasingWhitelisted("NDX-EVHD-5FLM-3NMQ-G46NR"). // This is the account that needs to approve
                 phasingFinishHeight(height + 100). // It has 100 blocks to submit the approval
                 phasingMinBalanceModel(VoteWeighting.MinBalanceModel.NONE.getCode()). // There is no minimum balance requirement
                 remote(url).

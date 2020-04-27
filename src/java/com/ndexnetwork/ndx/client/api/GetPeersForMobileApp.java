@@ -13,7 +13,7 @@
  *
  */
 
-package com.jelurida.ardor.client.api;
+package com.ndexnetwork.ndx.client.api;
 
 import nxt.addons.JO;
 import nxt.http.callers.GetPeersCall;
@@ -27,7 +27,7 @@ public class GetPeersForMobileApp {
 
     public static void main(String[] args) throws Exception {
         if (args.length == 0) {
-            System.out.println("Specify remote node url, for example https://testnxt.jelurida.com/nxt");
+            System.out.println("Specify remote node url, for example https://test.npay.life/nxt");
             System.exit(0);
         }
         URL url = new URL(args[0]);
