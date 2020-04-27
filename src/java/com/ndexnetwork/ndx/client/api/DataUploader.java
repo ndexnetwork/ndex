@@ -13,7 +13,7 @@
  *
  */
 
-package com.ndexnetwork.ndx.client.api;
+package com.jelurida.ardor.client.api;
 
 import nxt.addons.JO;
 import nxt.http.callers.UploadTaggedDataCall;
@@ -29,7 +29,7 @@ public class DataUploader {
     private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
 
     public static void main(String[] args) throws Exception {
-        URL url = new URL("https://ndxseed.npay.life/nxt");
+        URL url = new URL("https://testnxt.jelurida.com/nxt");
         DataUploader dataUploader = new DataUploader();
         dataUploader.upload(url);
     }

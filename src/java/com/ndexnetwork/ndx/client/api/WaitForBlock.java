@@ -13,7 +13,7 @@
  *
  */
 
-package com.ndexnetwork.ndx.client.api;
+package com.jelurida.ardor.client.api;
 
 import nxt.addons.JA;
 import nxt.addons.JO;

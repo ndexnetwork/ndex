@@ -13,7 +13,7 @@
  *
  */
 
-package com.ndexnetwork.ndx.client.api;
+package com.jelurida.ardor.client.api;
 
 import nxt.addons.JO;
 import nxt.http.callers.DecryptFromCall;
@@ -33,11 +33,11 @@ import java.util.stream.Collectors;
 public class MessageDecryption {
 
     private static final String RECIPIENT_SECRET_PHRASE = "no30FiiC95auuD0tbA1QJuhACtPdT6llpYInYREIT9GKlZhvBB";
-    private static final String SENDER_ACCOUNT = "NDX-XK4R-7VJU-6EQG-7R335";
+    private static final String SENDER_ACCOUNT = "NXT-XK4R-7VJU-6EQG-7R335";
 
     public static void main(String[] args) throws MalformedURLException {
-        URL remoteUrl = new URL("https://ndxseed.npay.life/nxt");
-        URL localUrl = new URL("http://localhost:6868/nxt");
+        URL remoteUrl = new URL("https://testnxt.jelurida.com/nxt");
+        URL localUrl = new URL("http://localhost:6876/nxt");
         MessageDecryption messageDecryption = new MessageDecryption();
         List<TransactionResponse> transactions = messageDecryption.getTransactions(	2490135, SENDER_ACCOUNT, remoteUrl);
         for (TransactionResponse transaction : transactions) {
