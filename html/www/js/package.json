@@ -1,7 +1,7 @@
 {
-  "name": "nxt-blockchain",
-  "version": "1.11.8",
-  "description": "Client API library for the NXT Blockchain",
+  "name": "ndx-blockchain",
+  "version": "2.0.2",
+  "description": "Client API library for the NDX Blockchain",
   "main": "nrs.node.bridge.js",
   "directories": {
     "test": "test"
@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/Jelurida/nxt.git"
+    "url": "git+https://github.com/ndexnetwork/ndex.git"
   },
   "keywords": [
     "blockchain",
     "client",
     "api"
   ],
-  "author": "Jelurida",
+  "author": "nDEX Network",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/Jelurida/nxt#readme",
+  "homepage": "https://github.com/ndexnetwork/ndex#readme",
   "dependencies": {
     "async": "^2.1.4",
     "crypto-js": "^3.1.9-1",

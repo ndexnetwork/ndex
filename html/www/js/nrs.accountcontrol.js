@@ -37,7 +37,7 @@ var NRS = (function(NRS, $) {
 		$(".phasing_only_number_accounts_group").find("input[name=controlQuorum]").val(1);
 
 		var context = {
-			labelText: "Amount NXT",
+			labelText: "Amount NDX",
 			labelI18n: "amount_nxt",
 			helpI18n: "approve_transaction_amount_help",
 			inputName: "controlQuorumNXT",
