@@ -63,14 +63,16 @@ var NRS = (function (NRS, $) {
         'SERVER': {},
         'MAX_TAGGED_DATA_DATA_LENGTH': 0,
         'MAX_PRUNABLE_MESSAGE_LENGTH': 0,
-        'GENESIS': '',
-        'GENESIS_RS': '',
+        'GENESIS': '16728118245208079379',
+        'GENESIS_RS': 'NDX-RH2M-XAM7-A2A9-GQKBJ',
         'EPOCH_BEGINNING': 0,
         'FORGING': 'forging',
         'NOT_FORGING': 'not_forging',
         'UNKNOWN': 'unknown',
-        'LAST_KNOWN_BLOCK': { id: "312737963946459545", height: "116814" },
+     //  'LAST_KNOWN_BLOCK': { id: "15843097789236847667", height: "117040" },
+        'LAST_KNOWN_BLOCK': { id: "0", height: "0" },
         'LAST_KNOWN_TESTNET_BLOCK': { id: "0", height: "0" },
+     //   'INITIAL_BASE_TARGET': 2277590847,
         'SCHEDULE_PREFIX': "schedule"
     };
 

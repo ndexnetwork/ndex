@@ -11,3 +11,5 @@ echo "***********************************************************************"
 
 java -Xmx1024m -cp "classes:lib/*:conf" $@ nxt.tools.CompactDatabase
 exit $?
+
+#this process should improve

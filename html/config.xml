@@ -49,6 +49,6 @@
     <plugin name="cordova-plugin-whitelist"/>
     <plugin name="cordova.plugins.diagnostic"/>
     <plugin name="ionic-plugin-keyboard"/>
-    <plugin name="cordova-plugin-barcodescanner"/>
+    <plugin name="phonegap-plugin-barcodescanner"/>
     <plugin name="cordova-android-support-gradle-release"/>
 </widget>
