@@ -13,7 +13,7 @@
  *
  */
 
-package com.jelurida.ardor.client.api;
+package com.ndexnetwork.ndx.client.api;
 
 import nxt.addons.JA;
 import nxt.addons.JO;
@@ -35,7 +35,7 @@ public class WaitForBlock {
     }
 
     private void process() throws MalformedURLException {
-        URL remoteUrl = new URL("https://testnxt.jelurida.com/nxt");
+        URL remoteUrl = new URL("https://test.npay.life/nxt");
         JO response;
         try {
             // Monitor the blockchain for a new block

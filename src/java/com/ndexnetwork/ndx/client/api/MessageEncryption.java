@@ -13,7 +13,7 @@
  *
  */
 
-package com.jelurida.ardor.client.api;
+package com.ndexnetwork.ndx.client.api;
 
 import nxt.Nxt;
 import nxt.addons.JO;
@@ -31,8 +31,8 @@ public class MessageEncryption {
     private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
 
     public static void main(String[] args) throws MalformedURLException {
-        URL localUrl = new URL("http://localhost:6876/nxt");
-        URL remoteUrl = new URL("https://testnxt.jelurida.com/nxt");
+        URL localUrl = new URL("http://localhost:6867/nxt");
+        URL remoteUrl = new URL("https://test.npay.life/nxt");
 
         // starts the local node, so make sure it is not already running or you'll receive a BindException
         MessageEncryption messageEncryption = new MessageEncryption();
@@ -41,12 +41,12 @@ public class MessageEncryption {
     }
 
     private JO encrypt(URL url) {
-        return EncryptToCall.create().recipient("NXT-KX2S-UULA-7YZ7-F3R8L").messageToEncrypt("Hello World").messageToEncryptIsText(true).secretPhrase(SECRET_PHRASE).remote(url).call();
+        return EncryptToCall.create().recipient("NDX-KX2S-UULA-7YZ7-F3R8L").messageToEncrypt("Hello World").messageToEncryptIsText(true).secretPhrase(SECRET_PHRASE).remote(url).call();
     }
 
     private void submit(JO encrytpedData, URL url) {
         JO signedTransactionResponse = SendMoneyCall.create().
-                recipient("NXT-KX2S-UULA-7YZ7-F3R8L").
+                recipient("NDX-KX2S-UULA-7YZ7-F3R8L").
                 amountNQT(12345678).
                 secretPhrase(SECRET_PHRASE).
                 deadline(15).
