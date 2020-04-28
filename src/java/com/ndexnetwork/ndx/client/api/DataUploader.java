@@ -29,7 +29,7 @@ public class DataUploader {
     private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
 
     public static void main(String[] args) throws Exception {
-        URL url = new URL("https://test.npay.life/nxt");
+        URL url = new URL("https://tndx.npay.life/nxt");
         DataUploader dataUploader = new DataUploader();
         dataUploader.upload(url);
     }

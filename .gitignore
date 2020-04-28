@@ -39,7 +39,7 @@ nDEXservice.exe
 /out
 /ide
 
-
+/changelogs
 logs/
 
 *.tmp

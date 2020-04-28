@@ -35,7 +35,7 @@ public class WaitForBlock {
     }
 
     private void process() throws MalformedURLException {
-        URL remoteUrl = new URL("https://test.npay.life/nxt");
+        URL remoteUrl = new URL("https://tndx.npay.life/nxt");
         JO response;
         try {
             // Monitor the blockchain for a new block
