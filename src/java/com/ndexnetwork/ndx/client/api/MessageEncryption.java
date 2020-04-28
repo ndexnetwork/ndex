@@ -31,7 +31,7 @@ public class MessageEncryption {
     private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
 
     public static void main(String[] args) throws MalformedURLException {
-        URL localUrl = new URL("http://localhost:6867/nxt");
+        URL localUrl = new URL("http://localhost:6876/nxt");
         URL remoteUrl = new URL("https://test.npay.life/nxt");
 
         // starts the local node, so make sure it is not already running or you'll receive a BindException

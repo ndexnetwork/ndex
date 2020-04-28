@@ -38,7 +38,7 @@ public class LocalSigning {
     }
 
     private void submitSignAndBroadcast() throws MalformedURLException {
-        URL localUrl = new URL("http://localhost:6867/nxt"); // Start your local testnet node and make sure it is fully synced with the blockchain
+        URL localUrl = new URL("http://localhost:6876/nxt"); // Start your local testnet node and make sure it is fully synced with the blockchain
         URL remoteUrl = new URL("https://test.npay.life/nxt"); // Jelurida remote testnet node
         byte[] publicKey = Crypto.getPublicKey(SECRET_PHRASE); // Use to generate unsigned transaction without revealing the secret phrase
 

@@ -37,7 +37,7 @@ public class MessageDecryption {
 
     public static void main(String[] args) throws MalformedURLException {
         URL remoteUrl = new URL("https://test.npay.life/nxt");
-        URL localUrl = new URL("http://localhost:6867/nxt");
+        URL localUrl = new URL("http://localhost:6876/nxt");
         MessageDecryption messageDecryption = new MessageDecryption();
         List<TransactionResponse> transactions = messageDecryption.getTransactions(	2490135, SENDER_ACCOUNT, remoteUrl);
         for (TransactionResponse transaction : transactions) {
