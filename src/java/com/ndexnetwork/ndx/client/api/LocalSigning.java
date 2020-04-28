@@ -30,7 +30,7 @@ import java.net.URL;
  */
 public class LocalSigning {
 
-    private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state"; // Only needed for signTransactionCall
+    private static final String SECRET_PHRASE = "dove bar guy valley due pencil self sweat crumble husband loser cost"; // Only needed for signTransactionCall
 
     public static void main(String[] args) throws MalformedURLException {
         LocalSigning localSigning = new LocalSigning();
@@ -76,7 +76,7 @@ public class LocalSigning {
 
     private JO submitRemotely(URL remoteUrl, byte[] publicKey) {
         JO unsignedTransactionResponse = SendMoneyCall.create().
-                recipient("NDX-KX2S-UULA-7YZ7-F3R8L").
+                recipient("NDX-2C9N-RJ83-2826-2VSEV").
                 amountNQT(12345678).
                 publicKey(publicKey).
                 deadline(15).

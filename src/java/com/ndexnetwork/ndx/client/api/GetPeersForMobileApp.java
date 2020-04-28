@@ -27,7 +27,7 @@ public class GetPeersForMobileApp {
 
     public static void main(String[] args) throws Exception {
         if (args.length == 0) {
-            System.out.println("Specify remote node url, for example https://test.npay.life/nxt");
+            System.out.println("Specify remote node url, for example https://tndx.npay.life/nxt");
             System.exit(0);
         }
         URL url = new URL(args[0]);

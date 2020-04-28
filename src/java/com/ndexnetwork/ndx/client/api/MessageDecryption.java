@@ -32,8 +32,8 @@ import java.util.stream.Collectors;
  */
 public class MessageDecryption {
 
-    private static final String RECIPIENT_SECRET_PHRASE = "no30FiiC95auuD0tbA1QJuhACtPdT6llpYInYREIT9GKlZhvBB";
-    private static final String SENDER_ACCOUNT = "NDX-XK4R-7VJU-6EQG-7R335";
+    private static final String RECIPIENT_SECRET_PHRASE = "dove bar guy valley due pencil self sweat crumble husband loser cost";
+    private static final String SENDER_ACCOUNT = "NDX-MHVD-953N-ECSQ-EB4YA";
 
     public static void main(String[] args) throws MalformedURLException {
         URL remoteUrl = new URL("https://tndx.npay.life/nxt");

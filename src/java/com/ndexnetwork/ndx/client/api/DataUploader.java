@@ -26,7 +26,7 @@ import java.net.URL;
  */
 public class DataUploader {
 
-    private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
+    private static final String SECRET_PHRASE = "dove bar guy valley due pencil self sweat crumble husband loser cost";
 
     public static void main(String[] args) throws Exception {
         URL url = new URL("https://tndx.npay.life/nxt");

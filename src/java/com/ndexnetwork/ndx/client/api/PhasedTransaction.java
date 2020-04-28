@@ -31,7 +31,7 @@ import java.net.URL;
  */
 public class PhasedTransaction {
 
-    private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
+    private static final String SECRET_PHRASE = "dove bar guy valley due pencil self sweat crumble husband loser cost";
 
     public static void main(String[] args) throws MalformedURLException {
         URL url = new URL("https://tndx.npay.life/nxt");
@@ -46,7 +46,7 @@ public class PhasedTransaction {
         int height = blockResponse.getHeight();
 
         JO signedTransactionResponse = SendMoneyCall.create().
-                recipient("NDX-KX2S-UULA-7YZ7-F3R8L").
+                recipient("NDX-2C9N-RJ83-2826-2VSEV").
                 amountNQT(12345678).
                 secretPhrase(SECRET_PHRASE).
                 deadline(15).
@@ -54,7 +54,7 @@ public class PhasedTransaction {
                 phased(true).
                 phasingVotingModel(VoteWeighting.VotingModel.ACCOUNT.getCode()). // Another account will need to approve this
                 phasingQuorum(1). // One approver account is enough
-                phasingWhitelisted("NDX-EVHD-5FLM-3NMQ-G46NR"). // This is the account that needs to approve
+                phasingWhitelisted("NDX-BTUQ-FS4F-F3ZX-FATZS"). // This is the account that needs to approve
                 phasingFinishHeight(height + 100). // It has 100 blocks to submit the approval
                 phasingMinBalanceModel(VoteWeighting.MinBalanceModel.NONE.getCode()). // There is no minimum balance requirement
                 remote(url).

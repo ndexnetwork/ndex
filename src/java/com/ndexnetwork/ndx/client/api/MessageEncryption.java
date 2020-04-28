@@ -28,7 +28,7 @@ import java.net.URL;
  */
 public class MessageEncryption {
 
-    private static final String SECRET_PHRASE = "hope peace happen touch easy pretend worthless talk them indeed wheel state";
+    private static final String SECRET_PHRASE = "dove bar guy valley due pencil self sweat crumble husband loser cost";
 
     public static void main(String[] args) throws MalformedURLException {
         URL localUrl = new URL("http://localhost:6876/nxt");
@@ -41,12 +41,12 @@ public class MessageEncryption {
     }
 
     private JO encrypt(URL url) {
-        return EncryptToCall.create().recipient("NDX-KX2S-UULA-7YZ7-F3R8L").messageToEncrypt("Hello World").messageToEncryptIsText(true).secretPhrase(SECRET_PHRASE).remote(url).call();
+        return EncryptToCall.create().recipient("NDX-2C9N-RJ83-2826-2VSEV").messageToEncrypt("Hello World").messageToEncryptIsText(true).secretPhrase(SECRET_PHRASE).remote(url).call();
     }
 
     private void submit(JO encrytpedData, URL url) {
         JO signedTransactionResponse = SendMoneyCall.create().
-                recipient("NDX-KX2S-UULA-7YZ7-F3R8L").
+                recipient("NDX-2C9N-RJ83-2826-2VSEV").
                 amountNQT(12345678).
                 secretPhrase(SECRET_PHRASE).
                 deadline(15).
