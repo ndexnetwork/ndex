@@ -32,7 +32,7 @@ RemoteNodesManager.prototype.REMOTE_NODES_BOOTSTRAP =
                 "platform":"Linux amd64",
                 "lastUpdated":0,
                 "blacklisted":false,
-                "announcedAddress":"test.npay.life",
+                "announcedAddress":"155.138.142.58",
                 "apiPort":6867,
                 "application":"nDEX",
                 "port":6898,
