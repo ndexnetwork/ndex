@@ -11,7 +11,10 @@ NDX is a cryptocurrency to make the world a better place.
 See [LICENSE](https://raw.githubusercontent.com/ndexnetwork/nDEX/master/.github/LICENSE)
 
 ----
-### Block Explorer: https://ndex.pro/#/
+### nDEX Portal | NDX Blockchain Explorer <br>
+https://portal.ndexnetwork.com <br>
+https://ndex.pro
+
 ### PORTS AND DETAILS
 --------------------
 Name of Blockchain: nDEX
